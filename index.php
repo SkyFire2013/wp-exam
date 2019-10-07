@@ -197,5 +197,50 @@
                </div>
           </div>
      </div>
+     <div id="best-tours">
+          <img class="img-responsive" src="images/bg-sea.png" alt="Sea">
+          <div class="row content">
+               <div class="title">
+                    We Provide Only the Best Tours
+               </div>
+               <div class="description">
+                    With more than 230 trips to worldwide destinations, including Europe, North & Central, South America, Asia,  Australia & New Zealand, we continue to offer new ways and the best tours for traveling every year.
+               </div>
+               <div class="cta">
+                    <a href="#" class="secondary-btn">
+                         <i class="far fa-paper-plane"></i>
+                         GET IN TOUCH
+                    </a>
+               </div>
+          </div>
+          <div class="row why-us">
+               <div class="section-title">
+                    Why Us?
+               </div>
+               <div class="row boxes">
+                    <div class="col col-lg-4 box">
+                         <img src="images/best-services.png" alt="The Best Services">
+                         <div class="title">The Best Service</div>
+                         <div class="description">
+                              Our aim is to provide you with the tour service of the top quality, and we'll do our best to find the suitable tour for you.
+                         </div>
+                    </div>
+                    <div class="col col-lg-4 box">
+                         <img src="images/everything-included.png" alt="Everthing is included">
+                         <div class="title">Everything is included</div>
+                         <div class="description">
+                              There are dozens of aspects to pay attention to, while organizing a trip, and we’ll make sure your tour includes everything you need.
+                         </div>
+                    </div>
+                    <div class="col col-lg-4 box">
+                         <img src="images/great-prices.png" alt="Great Prices">
+                         <div class="title">Great Prices</div>
+                         <div class="description">
+                              All our tours and excursions are available at really affordable prices so you can always pick a great destination.
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
 </body>
 </html>

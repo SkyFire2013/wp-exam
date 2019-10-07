@@ -56,6 +56,11 @@ li.with-pipe {
      margin-bottom: 10px;
 }
 
+.row {
+     margin-right: 0;
+     margin-left: 0;
+}
+
 .section-text {
      color:#9b9b9b;
      font-size: 12px;
@@ -71,6 +76,18 @@ li.with-pipe {
      text-transform: uppercase;
      color: #fff;
      font-size: 10px;
+     font-weight:bold;
+}
+
+.secondary-btn {
+     background-color: transparent;
+     padding: 10px 2.5%;
+     border-radius: 18px;
+     border: 2px solid #FFFFFF;
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 10px;
+     font-weight:bold;
 }
 
 .container {
@@ -163,4 +180,58 @@ ul.ctas li {
 
 .tour-read-more {
      padding: 20px;
+}
+
+#best-tours {
+     position: relative;
+     color: #FFF;
+}
+
+#best-tours .boxes {
+     margin-top: 40px;
+}
+
+#best-tours .content{
+     position: absolute;
+     top: 18%;
+     width: 100%;
+     text-align: center;
+}
+
+#best-tours .content .title {
+     font-size: 35px;
+     font-weight: bold;
+     padding-bottom: 20px;
+}
+
+#best-tours .content .description {
+     font-size: 12px;
+     width: 45%;
+     display:inline-block;
+     padding-bottom:40px;
+}
+
+#best-tours .why-us {
+     padding: 6% 10% 4% 10%;
+     color: #545454;
+}
+
+#best-tours .boxes .box {
+     text-align:center;
+     padding: 0 35px;
+}
+  
+#best-tours .boxes .box img {
+     width: 80px;
+}
+
+#best-tours .box .title {
+     font-size: 20px;
+     font-weight: bold;
+     padding: 20px 0;
+}
+
+#best-tours .box .description {
+     font-size: 12px;
+     color: #9b9b9b;
 }
