@@ -127,5 +127,75 @@
                </div>
           </div>
      </div>
+     <div id="featured-tours">
+          <div class="container">
+               <div class="section-title">Featured Tours</div>
+               <div class="section-text">
+                    Explore the world with Intense! We offer you a vast variety of tours of all types featuring both exotic and already well-known destinations, some of which are listed below.
+               </div>
+               <div id="tours" class="row">
+                    <div class="col col-lg-3">
+                         <img class="img-responsive" src="images/tour1.png" alt="Tour 1">
+                         <div class="tour-name">
+                              Kamalame Cay Resort  
+                         </div>
+                         <div class="tour-details">
+                              Kamalame Cay, The Bahamas
+                         </div>
+                         <div class="tour-read-more">
+                              <a href="#" class="primary-btn">
+                                   <i class="far fa-paper-plane"></i>
+                                   read more
+                              </a>
+                         </div>
+                    </div>
+                    <div class="col col-lg-3">
+                         <img class="img-responsive" src="images/tour2.png" alt="Tour 2">
+                         <div class="tour-name">
+                              Kamalame Cay Resort  
+                         </div>
+                         <div class="tour-details">
+                              Kamalame Cay, The Bahamas
+                         </div>
+                         <div class="tour-read-more">
+                              <a href="#" class="primary-btn">
+                                   <i class="far fa-paper-plane"></i>
+                                   read more
+                              </a>
+                         </div>
+                    </div>
+                    <div class="col col-lg-3">
+                         <img class="img-responsive" src="images/tour3.png" alt="Tour 3">
+                         <div class="tour-name">
+                              Kamalame Cay Resort  
+                         </div>
+                         <div class="tour-details">
+                              Kamalame Cay, The Bahamas
+                         </div>
+                         <div class="tour-read-more">
+                              <a href="#" class="primary-btn">
+                                   <i class="far fa-paper-plane"></i>
+                                   read more
+                              </a>
+                         </div>
+                    </div>
+                    <div class="col col-lg-3">
+                         <img class="img-responsive" src="images/tour4.png" alt="Tour 4">
+                         <div class="tour-name">
+                              Kamalame Cay Resort  
+                         </div>
+                         <div class="tour-details">
+                              Kamalame Cay, The Bahamas
+                         </div>
+                         <div class="tour-read-more">
+                              <a href="#" class="primary-btn">
+                                   <i class="far fa-paper-plane"></i>
+                                   read more
+                              </a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
 </body>
 </html>
