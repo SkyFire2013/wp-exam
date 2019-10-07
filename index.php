@@ -23,9 +23,14 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Crazy demo</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+     <script src="https://kit.fontawesome.com/8064e623c9.js" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="css/styles.css">
      <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
-     <script src="https://kit.fontawesome.com/8064e623c9.js" crossorigin="anonymous"></script>
 </head>
 <body>
      <header>
@@ -49,7 +54,7 @@
                          </a>
                     </li>
                     <li>
-                         <a href="#" class="btn main">
+                         <a href="#" class="primary-btn">
                               <i class="far fa-paper-plane"></i>
                               Book Now
                          </a>
@@ -57,8 +62,70 @@
                </ul>
           </div>
      </header>
-     <div class="container">
-          
+     <div class="slider-block"> 
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+               <!-- Indicators -->
+               <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+               </ol>
+
+               <!-- Wrapper for slides -->
+               <div class="carousel-inner">
+                    <div class="item active">
+                         <img src="images/slider1.png" alt="Slider 1">
+                         <div class="slider-content">
+                              <div class="title">
+                                   Let's Make Your Best Trip Ever
+                              </div>
+                              <div class="description">
+                                   We are committed to offering travel services of the highest quality, combining our energy and enthusiasm, with our years of experience.
+                              </div>
+                              <div class="cta">
+                                   <a href="#" class="primary-btn">
+                                        <i class="far fa-paper-plane"></i>
+                                        Book a tour
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="item">
+                         <img src="images/slider2.png" alt="Slider 2">
+                         <div class="slider-content">
+                              <div class="title">
+                                   Let's Make Your Best Trip Ever
+                              </div>
+                              <div class="description">
+                                   We are committed to offering travel services of the highest quality, combining our energy and enthusiasm, with our years of experience.
+                              </div>
+                              <div class="cta">
+                                   <a href="#" class="primary-btn">
+                                        <i class="far fa-paper-plane"></i>
+                                        Book a tour
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="item">
+                         <img src="images/slider3.png" alt="Slider 3">
+                         <div class="slider-content">
+                              <div class="title">
+                                   Let's Make Your Best Trip Ever
+                              </div>
+                              <div class="description">
+                                   We are committed to offering travel services of the highest quality, combining our energy and enthusiasm, with our years of experience.
+                              </div>
+                              <div class="cta">
+                                   <a href="#" class="primary-btn">
+                                        <i class="far fa-paper-plane"></i>
+                                        Book a tour
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
      </div>
 </body>
 </html>

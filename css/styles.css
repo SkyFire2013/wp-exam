@@ -15,6 +15,9 @@ ul {
 
 header {
      background-color: #212121;
+     position: fixed;
+     width: 100%;
+     z-index: 1;
 }
 
 header a {
@@ -35,11 +38,14 @@ li.with-pipe {
      border-right: 1px solid #fff;
 }
 
-.btn.main {
+.primary-btn {
      background-color: #ff6b6b;
      padding: 10px 10px;
      border-radius: 17px;
      border:none;
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 10px;
 }
 
 .container {
@@ -49,7 +55,7 @@ li.with-pipe {
 }
 
 .logo-container {
-     padding: 12px 0 8px 0;
+     padding: 14px 0 10px 0;
      display: inline-block;
 }
 
@@ -74,9 +80,48 @@ ul.ctas {
      display: inline-block;
      position: absolute;
      right: 0;
-     top: 16px;
+     top: 20px;
 }
  
 ul.ctas li {
      display: inline-block;
 }
+
+.carousel .item {
+     position: relative;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+     width: 15px;
+     height: 15px;
+     margin: 5px;
+}
+
+.carousel-indicators li:not(.active) {
+     border: none;
+     background-color: #FFFFFF;
+     opacity: .4;
+}
+
+.slider-content {
+     position: absolute;
+     top: 20%;
+     width: 100%;
+     padding: 6% 15%;
+     color: #FFF;
+}
+
+.slider-content .title {
+     font-size: 40px;
+     font-weight: bold;
+     width: 400px;
+ }
+
+.slider-content .description {
+     width: 58%;
+}
+
+.slider-content div {
+    padding: 10px 0;
+}
+
