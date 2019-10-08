@@ -14,21 +14,68 @@ ul {
      padding-inline-start: 0;
 }
 
+ul li {
+    list-style:none;
+    display:inline-block;
+}
+
 header {
      background-color: #212121;
      position: fixed;
      width: 100%;
      z-index: 100;
+     padding: 15px 0 12px 0;
 }
 
 footer {
      background-color: #212121;
      width: 100%;
+     padding: 20px;
+}
+
+footer .social-media-icons {
+     text-align: right;
+}
+
+footer .social-media-icons a {
+     color: #fff;
+     font-size: 14px;
+     background-color: #2e2e2e;
+     display: block;
+     height: 33px;
+     width: 33px;
+     border-radius: 18px;
+}
+
+footer .social-media-icons a i {
+     position: relative;
+     top: 7px;
+     right: 11px;
+}
+
+footer .social-media-icons a i.fa-google-plus-g {
+    right: 8px;
+}
+
+footer .social-media-icons a i.fa-facebook-f {
+    right: 12px;
+}
+
+footer .social-media-icons a i.fa-twitter {
+    right: 10px;
+}
+
+footer ul li {
+     padding: 0 4px;
 }
 
 header a {
     color: #fff;
     font-size: 10px;
+}
+
+header .ctas {
+    text-align: right;
 }
 
 header ul li {
@@ -95,7 +142,7 @@ li.with-pipe {
      font-weight:bold;
 }
 
-.container, .footer {
+.header, .footer {
      max-width: 1100px;
      margin: 0 auto;
      position: relative;
@@ -125,9 +172,8 @@ i.fas {
 ul.ctas {
      list-style: none;
      display: inline-block;
-     position: absolute;
-     right: 0;
-     top: 20px;
+     position: relative;
+     top: 6px;
 }
  
 ul.ctas li {
@@ -290,4 +336,8 @@ ul.ctas li {
 #client-feedbacks .primary-btn {
      padding: 13px 45px;
      border-radius: 20px;
+}
+
+@media (min-width:768px){
+
 }

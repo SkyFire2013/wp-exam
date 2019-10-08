@@ -34,32 +34,34 @@
 </head>
 <body>
      <header>
-          <div class="container">
-               <div class="logo-container">
+          <div class="row header">
+               <div class="col col-sm-6 logo">
                     <a href="/">
-                         <img src="images/site-logo.png" alt="Crazy Domain">
+                         <img class="site-logo "src="images/site-logo.png" alt="Crazy Domain">
                     </a>
                </div>
-               <ul class="ctas">
-                    <li class="with-pipe">
-                         <a href="tel:+12345678" class="phn">
-                              <i class="fas fa-phone-alt"></i>
-                              +1234 5678
-                         </a>
-                    </li>
-                    <li>
-                         <a href="mailto:mail@crazydomains.com" class="mail">
-                              <i class="far fa-envelope"></i>
-                              crazydomains.com
-                         </a>
-                    </li>
-                    <li>
-                         <a href="#" class="primary-btn">
-                              <i class="far fa-paper-plane"></i>
-                              Book Now
-                         </a>
-                    </li>
-               </ul>
+               <div class="col col-sm-6 ctas">
+                    <ul class="ctas">
+                         <li class="with-pipe">
+                              <a href="tel:+12345678" class="phn">
+                                   <i class="fas fa-phone-alt"></i>
+                                   +1234 5678
+                              </a>
+                         </li>
+                         <li>
+                              <a href="mailto:mail@crazydomains.com" class="mail">
+                                   <i class="far fa-envelope"></i>
+                                   crazydomains.com
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#" class="primary-btn">
+                                   <i class="far fa-paper-plane"></i>
+                                   Book Now
+                              </a>
+                         </li>
+                    </ul>
+               </div>
           </div>
      </header>
      <div class="slider-block"> 
@@ -343,8 +345,29 @@
                          <img class="site-logo" src="images/site-logo.png" alt="Crazy Domain">
                     </a>
                </div>
-               <div class="col-sm-6">
-
+               <div class="col-sm-6 social-media-icons">
+                    <ul>
+                         <li>
+                              <a href="#">
+                                   <i class="fab fa-facebook-f"></i>
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#">
+                                   <i class="fab fa-twitter"></i>
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#">
+                                   <i class="fab fa-google-plus-g"></i>
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#">
+                                   <i class="fab fa-linkedin-in"></i>
+                              </a>
+                         </li>
+                    </ul>
                </div>
           </div>
      </footer>
