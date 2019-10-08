@@ -235,3 +235,54 @@ ul.ctas li {
      font-size: 12px;
      color: #9b9b9b;
 }
+
+#our-partners {
+     background-color: #f5f5f5;
+     padding: 5% 10% 4.5% 10%;
+}
+
+#our-partners .partners .partner {
+     text-align:center;
+}
+ 
+#our-partners .partners .partner img {
+     width: 115px;
+}
+
+#our-partners .section-title {
+     margin-bottom: 30px;
+}
+
+#client-feedbacks {
+     padding: 5% 12% 2% 12%;
+}
+
+#client-feedbacks .clients .client img {
+     width: 65px;
+}
+
+#client-feedbacks .section-title {
+     margin-bottom: 70px;
+}
+
+#client-feedbacks .clients .client .testimonial {
+     font-size: 11px;
+     color: #545454;
+}
+
+#client-feedbacks .client-names .name {
+     padding: 10px 17px;
+     font-size: 13px;
+     font-weight: bold;
+     color: #9b9b9b;
+}
+
+#client-feedbacks .cta {
+     text-align: center;
+     padding: 50px 0 30px 0;
+}
+
+#client-feedbacks .primary-btn {
+     padding: 13px 45px;
+     border-radius: 20px;
+}

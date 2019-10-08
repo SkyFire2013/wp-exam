@@ -242,5 +242,99 @@
                </div>
           </div>
      </div>
+     <div id="our-partners">
+          <div class="section-title">
+               Our Partners
+          </div>
+          <div class="partners row">
+               <div class="col col-lg-2 partner">
+                    <img src="images/client-climb-the-mountain.png" alt="Climb the mountain">
+               </div>
+               <div class="col col-lg-2 partner">
+                    <img src="images/client-norcold.png" alt="Norcold">
+               </div>
+               <div class="col col-lg-2 partner">
+                    <img src="images/client-goldengrid.png" alt="Golden Grid">
+               </div>
+               <div class="col col-lg-2 partner">
+                    <img src="images/client-idea-box.png" alt="Idea Box">
+               </div>
+               <div class="col col-lg-2 partner">
+                    <img src="images/client-cara-indoors.png" alt="Cara Indoor">
+               </div>
+               <div class="col col-lg-2 partner">
+                    <img src="images/client-bullseye.png" alt="Bullseye">
+               </div>
+          </div>
+     </div>
+     <div id="client-feedbacks">
+          <div class="section-title">
+               What Our Clients Say
+          </div>
+          <div class="row clients">
+               <div class="col col-lg-4 client">
+                    <div class="row">
+                         <div class="col col-sm-3">
+                              <img src="images/lisaevants.png" alt="Lisa Evants">
+                         </div>
+                         <div class="col col-sm-9">
+                              <div class="testimonial">
+                                   Disney in December was absolutely delightful! From our 1 day at Magic Kingdom & 2 days at Animal Kingdom, our family was filled with excitement and magical memories.
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="col col-lg-4 client">
+                    <div class="row">
+                         <div class="col col-sm-3">
+                              <img src="images/nicholaslane.png" alt="Nicholas Lane">
+                         </div>
+                         <div class="col col-sm-9">
+                              <div class="testimonial">
+                                   You were an excellent Travel Agency for us! You considered our unique needs while planning our itinerary. Every suggestion you made was excellent!
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="col col-lg-4 client">
+                    <div class="row">
+                         <div class="col col-sm-3">
+                              <img src="images/ethandean.png" alt="Ethan Dean">
+                         </div>
+                         <div class="col col-sm-9">
+                              <div class="testimonial">
+                                   I’m sending you a sincere "thank you" for all of your assistance during my recent trip to Colorado. It was invaluable to me and I realize and appreciate it greatly.
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="row client-names">
+               <div class="col col-lg-4">
+                    <div class="row">
+                         <div class="col col-sm-3"></div>
+                         <div class="col col-sm-9 name">- Lisa Evants</div>
+                    </div>
+               </div>
+               <div class="col col-lg-4">
+                    <div class="row">
+                         <div class="col col-sm-3"></div>
+                         <div class="col col-sm-9 name">- Nicholas Lane</div>
+                    </div>
+               </div>
+               <div class="col col-lg-4">
+                    <div class="row">
+                         <div class="col col-sm-3"></div>
+                         <div class="col col-sm-9 name">- Ethan Dean</div>
+                    </div>
+               </div>
+          </div>
+          <div class="cta">
+               <a href="#" class="primary-btn">
+                    <i class="far fa-paper-plane"></i>
+                    get in touch
+               </a>
+          </div>
+     </div>
 </body>
 </html>
