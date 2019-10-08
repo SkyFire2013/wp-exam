@@ -73,6 +73,7 @@ footer .social-media-icons a i.fa-twitter {
 
 footer ul li {
      padding: 0 4px;
+     text-align: right;
 }
 
 header a {
@@ -391,6 +392,10 @@ header ul li.button {
      margin-bottom: 20px;
 }
 
+.footer .logo, footer .social-media-icons {
+     text-align: center;
+}
+
 @media (min-width:425px){
      header {
           height: 110px;
@@ -435,6 +440,14 @@ header ul li.button {
 
      #slider-block .slider-content .title {
           font-size: 25px;
+     }
+
+     .footer .logo {
+          text-align: left;
+     }
+
+     .footer .social-media-icons {
+          text-align: right;
      }
 }
 
