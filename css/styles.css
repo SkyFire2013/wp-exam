@@ -21,6 +21,11 @@ header {
      z-index: 100;
 }
 
+footer {
+     background-color: #212121;
+     width: 100%;
+}
+
 header a {
     color: #fff;
     font-size: 10px;
@@ -90,7 +95,7 @@ li.with-pipe {
      font-weight:bold;
 }
 
-.container {
+.container, .footer {
      max-width: 1100px;
      margin: 0 auto;
      position: relative;
@@ -101,7 +106,7 @@ li.with-pipe {
      display: inline-block;
 }
 
-.logo-container a img {
+.logo-container a img, .site-logo {
      width: 100%;
      max-width: 170px;
 }

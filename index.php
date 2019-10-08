@@ -336,5 +336,17 @@
                </a>
           </div>
      </div>
+     <footer>
+          <div class="row footer">
+               <div class="col-sm-6">
+                    <a href="/">
+                         <img class="site-logo" src="images/site-logo.png" alt="Crazy Domain">
+                    </a>
+               </div>
+               <div class="col-sm-6">
+
+               </div>
+          </div>
+     </footer>
 </body>
 </html>
