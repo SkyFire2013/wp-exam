@@ -54,7 +54,7 @@
                                    crazydomains.com
                               </a>
                          </li>
-                         <li>
+                         <li class="button">
                               <a href="#" class="primary-btn">
                                    <i class="far fa-paper-plane"></i>
                                    Book Now
@@ -64,7 +64,7 @@
                </div>
           </div>
      </header>
-     <div class="slider-block"> 
+     <div id="slider-block"> 
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
                <!-- Indicators -->
                <ol class="carousel-indicators">
@@ -76,7 +76,8 @@
                <!-- Wrapper for slides -->
                <div class="carousel-inner">
                     <div class="item active">
-                         <img src="images/slider1.png" alt="Slider 1">
+                         <img class="img-desktop" src="images/slider1.png" alt="Slider 1">
+                         <img class="img-mobile" src="images/slider1-mobile.jpg" alt="Slider 1">
                          <div class="slider-content">
                               <div class="title">
                                    Let's Make Your Best Trip Ever
@@ -85,7 +86,7 @@
                                    We are committed to offering travel services of the highest quality, combining our energy and enthusiasm, with our years of experience.
                               </div>
                               <div class="cta">
-                                   <a href="#" class="primary-btn">
+                                   <a href="#" class="primary-btn block">
                                         <i class="far fa-paper-plane"></i>
                                         Book a tour
                                    </a>
@@ -93,7 +94,8 @@
                          </div>
                     </div>
                     <div class="item">
-                         <img src="images/slider2.png" alt="Slider 2">
+                         <img class="img-desktop" src="images/slider2.png" alt="Slider 2">
+                         <img class="img-mobile" src="images/slider2-mobile.jpg" alt="Slider 2">
                          <div class="slider-content">
                               <div class="title">
                                    Let's Make Your Best Trip Ever
@@ -102,7 +104,7 @@
                                    We are committed to offering travel services of the highest quality, combining our energy and enthusiasm, with our years of experience.
                               </div>
                               <div class="cta">
-                                   <a href="#" class="primary-btn">
+                                   <a href="#" class="primary-btn block">
                                         <i class="far fa-paper-plane"></i>
                                         Book a tour
                                    </a>
@@ -110,7 +112,8 @@
                          </div>
                     </div>
                     <div class="item">
-                         <img src="images/slider3.png" alt="Slider 3">
+                         <img class="img-desktop" src="images/slider3.png" alt="Slider 3">
+                         <img class="img-mobile" src="images/slider3-mobile.jpg" alt="Slider 3">
                          <div class="slider-content">
                               <div class="title">
                                    Let's Make Your Best Trip Ever
@@ -119,7 +122,7 @@
                                    We are committed to offering travel services of the highest quality, combining our energy and enthusiasm, with our years of experience.
                               </div>
                               <div class="cta">
-                                   <a href="#" class="primary-btn">
+                                   <a href="#" class="primary-btn block">
                                         <i class="far fa-paper-plane"></i>
                                         Book a tour
                                    </a>
@@ -340,7 +343,7 @@
      </div>
      <footer>
           <div class="row footer">
-               <div class="col-sm-6">
+               <div class="col-sm-6 logo">
                     <a href="/">
                          <img class="site-logo" src="images/site-logo.png" alt="Crazy Domain">
                     </a>
